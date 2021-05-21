@@ -27,7 +27,7 @@ public class Score : MonoBehaviour
     {
 
         User user = new User();
-        RestClient.Put("https://jigsawpuzzle-2ae60.firebaseio.com/" + uEmail + ".json", user);
+        RestClient.Put("your_firebase_db_url" + uEmail + ".json", user);
 
 
     }
